@@ -2,7 +2,7 @@
 
 ## What is it ? 
 It's a simple personal site with options of donate someone in a specific amount or buying something from the shop.  
- Because of problems with Zarrinpal and other Iranian payment websites, used of snipcart for handling buy and donate process.
+  Because of problems with Zarrinpal and other Iranian payment websites, used of snipcart for handling buy and donate process.
 
 ## How to run ? 
 First of all you need to install node.js on your system.
