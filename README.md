@@ -24,4 +24,4 @@ Then you can run the website with this command.
 npm start
 ```
 
-> [See live demo](https://phln.herokuapp.com/)
+> [See live demo](https://phlnsup.herokuapp.com/)
