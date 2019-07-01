@@ -5,7 +5,7 @@ const Router = require('koa-router')
 const loadRoutes = require("./app/routes")
 const DataLoader = require("./app/dataLoader")
 const views = require('koa-views')
-const serve = require(koa-static)
+const serve = require('koa-static')
 
 const app = new Koa()
 const router = new Router()
@@ -41,5 +41,5 @@ app.use(router.routes())
 // Start
 const port = process.env.PORT || config.get('server.port')
 app.listen(port, () => {
-    console.log('Application is listening on port ${port}')
+    console.log(`Application is listening on port ${port}`)
 })

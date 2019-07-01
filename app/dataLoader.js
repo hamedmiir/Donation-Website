@@ -1,4 +1,4 @@
-cosnt path = require('path')
+const path = require('path')
 const fs = require('fs-extra')
 
 function fileInfo(fileName, dir) {
@@ -33,4 +33,4 @@ class DataLoader {
     }
 }
 
-module.export = DataLoader
+module.exports = DataLoader
