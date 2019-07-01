@@ -1,0 +1,19 @@
+extends _layout
+block content
+  h2.cover-heading=model.title
+  p.lead My name is Lisa and I need your help to start my own podcast!
+  p To support me, either click on the button below to donate the amount of your choice
+  p.lead
+    a.btn.btn-lg.btn-secondary(href="/donate") 💰 Donate 💰
+  h2.cover-heading Or...
+  p buy one of these overpriced items
+  .container
+    .row
+      each product in model.products
+        .col-md
+          .card.bg-transparent.mb-3
+            .card-body
+              h3.card-title=product.name
+              p
+                span.badge.badge-success $#{product.price}
+a.btn.btn-dark.border.border-secondary(href=`/buy/${product._slug}`) More details

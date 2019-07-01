@@ -1,0 +1,22 @@
+{
+  "name": "snipcart-koajs",
+  "version": "1.0.0",
+  "description": "Minimalistic/low-ceremony ecommerce store built on Koa.js using Snipcart",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Hamed",
+  "dependencies": {
+    "config": "^1.31.0",
+    "fs-extra": "^6.0.1",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.2.0",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.1"
+  }
+}
